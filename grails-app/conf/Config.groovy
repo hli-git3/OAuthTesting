@@ -59,6 +59,19 @@ grails.exceptionresolver.params.exclude = ['password']
 // configure auto-caching of queries by default (if false you can cache individual queries with 'cache: true')
 grails.hibernate.cache.queries = false
 
+oauth {
+	providers {
+		dropbox {
+			api = DropBoxApi
+			key = 'qcsvslsyjefbv7t'
+			secret = 'oyrh4ip7uqfxgba'
+			successUri = '/'
+			failureUri = '/'
+			//callback = "${application.baseUrl}/oauth/twitter/callback"
+		}
+	}
+}
+
 environments {
     development {
         grails.logging.jul.usebridge = true
@@ -88,4 +101,29 @@ log4j = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+}
+
+// Added by the Spring Security Core plugin:
+/*
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'org.blusky.filesafe.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'org.blusky.filesafe.UserRole'
+grails.plugins.springsecurity.authority.className = 'org.blusky.filesafe.Role'
+grails.plugins.springsecurity.requestMap.className = 'org.blusky.filesafe.Requestmap'
+grails.plugins.springsecurity.securityConfigType = 'Requestmap'
+*/
+
+grails.plugins.springsecurity {
+	userLookup {
+		userDomainClassName = 'org.blusky.filesafe.User'
+		authorityJoinClassName = 'org.blusky.filesafe.UserRole'
+	}
+	authority.className = 'org.blusky.filesafe.Role'
+	requestMap.className = 'org.blusky.filesafe.Requestmap'
+	securityConfigType = 'Requestmap'
+
+	useSessionFixationPrevention = true
+
+	//rejectifNoRule = true
+
+	auth.forceHttps = true
 }
