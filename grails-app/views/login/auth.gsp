@@ -113,6 +113,11 @@
 				<input type='submit' id="submit" value='${message(code: "springSecurity.login.button")}'/>
 			</p>
 		</form>
+
+        <div>
+            Or, <oauth:connect provider="dropbox" id="dropbox-connect-link">Login with your DropBox account.</oauth:connect>
+        </div>
+
 	</div>
 </div>
 <script type='text/javascript'>

@@ -82,7 +82,6 @@
 </head>
 
 <body>
-<sec:ifLoggedIn>
     <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 
     <div id="status" role="complementary">
@@ -124,6 +123,5 @@
             </ul>
         </div>
     </div>
-</sec:ifLoggedIn>
 </body>
 </html>
