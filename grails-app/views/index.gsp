@@ -82,11 +82,6 @@
 </head>
 
 <body>
-
-<sec:ifNotLoggedIn>
-    <g:link controller='login' action='auth'>Login</g:link>
-</sec:ifNotLoggedIn>
-
 <sec:ifLoggedIn>
     <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 

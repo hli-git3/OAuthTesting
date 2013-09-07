@@ -126,7 +126,7 @@ grails {
 
 			useSessionFixationPrevention = true
 
-			//rejectifNoRule = true
+			rejectifNoRule = true
 
 			auth.forceHttps = true
 		}
