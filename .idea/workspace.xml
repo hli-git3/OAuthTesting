@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" afterPath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthTesting.iws" />
@@ -11,14 +11,15 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/a.java" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565018845" ignored="false" />
     <file path="/a.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565248423" ignored="false" />
-    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378575907685" ignored="false" />
-    <file path="/Config.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378571626568" ignored="false" />
+    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378576850757" ignored="false" />
+    <file path="/Config.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378579876506" ignored="false" />
     <file path="/a.dummy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378571805489" ignored="false" />
     <file path="/.gitignore" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378570502772" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378575120787" ignored="false" />
     <file path="/index.gsp" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378574447566" ignored="false" />
     <file path="/HomeController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378575942354" ignored="false" />
     <file path="/auth.gsp" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378576172181" ignored="false" />
+    <file path="/LoginController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378581075132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy" line="84" class="uk.co.desirableobjects.oauth.scribe.OauthService" package="uk.co.desirableobjects.oauth.scribe">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" line="15" class="uk.co.desirableobjects.oauth.scribe.OauthController" package="uk.co.desirableobjects.oauth.scribe">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,40 +112,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="17" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="27" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
+            <state line="132" column="16" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-12.16">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/HomeController.groovy">
+      <file leaf-file-name="OauthController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="262" selection-end="262" vertical-scroll-proportion="-8.130435">
+            <state line="16" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="11.608696">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
+      <file leaf-file-name="OauthService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="677" selection-end="677" vertical-scroll-proportion="-10.347826">
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state line="84" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,28 +148,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <file leaf-file-name="PageFragmentCachingFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/cache-1.0.1/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="194" column="0" selection-start="7949" selection-end="7949" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="22" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.8">
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="10" selection-start="3684" selection-end="3684" vertical-scroll-proportion="0.6259169">
+            <state line="124" column="10" selection-start="3684" selection-end="3684" vertical-scroll-proportion="-9.846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <file leaf-file-name="AbstractFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/cache-1.0.1/src/java/grails/plugin/cache/web/filter/AbstractFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="195" column="0" selection-start="6379" selection-end="6379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,18 +190,6 @@
         <entry file="file://$PROJECT_DIR$/grails-app/views/login/auth.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="117" column="108" selection-start="2673" selection-end="2673" vertical-scroll-proportion="-5.7959185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Requestmap.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/blusky/filesafe/Requestmap.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.7083333">
               <folding />
             </state>
           </provider>
@@ -196,12 +217,13 @@
         <option value="$PROJECT_DIR$/grails-app/domain/org/blusky/filesafe/Requestmap.groovy" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/HomeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
       </list>
     </option>
   </component>
@@ -270,6 +292,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -280,15 +316,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="OAuthTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="oauth-2.1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,19 +340,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth-2.1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="web-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,7 +358,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth-2.1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth-2.1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -334,7 +394,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth-2.1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -342,11 +406,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filesafe" />
+              <option name="myItemId" value="scribe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,7 +420,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemId" value="OAuthTesting-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth-2.1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,51 +435,9 @@
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
+              <option name="myItemId" value="scribe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OAuthTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -600,7 +626,11 @@
       <created>1378575926804</created>
       <updated>1378575926804</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dropbox login">
+      <created>1378576857766</created>
+      <updated>1378576857766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +655,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958263" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -679,7 +709,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="config home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="dropbox login" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -696,6 +726,7 @@
     <MESSAGE value="installed spring-security-core and oauth plugins." />
     <MESSAGE value="config spring-security-core plugin." />
     <MESSAGE value="config home page" />
+    <MESSAGE value="dropbox login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -705,13 +736,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/LogoutController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="36" selection-start="343" selection-end="343" vertical-scroll-proportion="-8.130435">
@@ -726,22 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.7083333">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="677" selection-end="677" vertical-scroll-proportion="-10.347826">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,17 +788,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="27" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
+        <state line="3" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/cache-1.0.1/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="0" selection-start="7949" selection-end="7949" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="10" selection-start="3684" selection-end="3684" vertical-scroll-proportion="0.6259169">
+        <state line="124" column="10" selection-start="3684" selection-end="3684" vertical-scroll-proportion="-9.846154">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Apps/grails-2.2.4/lib/org.springframework/spring-beans/jars/spring-beans-3.1.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1454" column="0" selection-start="58803" selection-end="58803" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/cache-1.0.1/src/java/grails/plugin/cache/web/filter/AbstractFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="0" selection-start="6379" selection-end="6379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="11.608696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="16" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-12.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="22" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.8">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

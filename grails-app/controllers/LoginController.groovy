@@ -23,6 +23,7 @@ class LoginController {
 	 * Dependency injection for the springSecurityService.
 	 */
 	def springSecurityService
+	def oauthService
 
 	/**
 	 * Default action; redirects to 'defaultTargetUrl' if logged in, /login/auth otherwise.
@@ -39,6 +40,15 @@ class LoginController {
 	 * Show the login page.
 	 */
 	def auth = {
+
+		String sessionKey = oauthService.findSessionKeyForAccessToken('dropbox')
+		String dropboxToken = session[sessionKey]
+		log.debug("dropbox token:" + dropboxToken);
+
+		if(dropboxToken == null) {
+			flash.message = "The token could no be retrieved... Please try again"
+			//redirect(uri:"/")
+		}
 
 		def config = SpringSecurityUtils.securityConfig
 

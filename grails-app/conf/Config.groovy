@@ -1,3 +1,5 @@
+import   org.scribe.builder.api.DropBoxApi
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -62,15 +64,15 @@ grails.hibernate.cache.queries = false
 oauth {
 	providers {
 		dropbox {
-			api = DropBoxApi
+			api = org.scribe.builder.api.DropBoxApi
 			key = 'qcsvslsyjefbv7t'
 			secret = 'oyrh4ip7uqfxgba'
 			successUri = '/'
 			failureUri = '/'
-			//callback = "${application.baseUrl}/oauth/twitter/callback"
+			callback = "http://localhost:8080/oauth/openbox/callback"
 		}
-		debug = true
 	}
+	debug = true
 }
 
 environments {
