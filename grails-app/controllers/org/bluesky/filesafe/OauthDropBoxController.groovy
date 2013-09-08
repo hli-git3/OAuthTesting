@@ -39,7 +39,7 @@ class OauthDropBoxController {
 	}
 
 	def fail() {
-		flash.message = "Dropbox login failed. Please try again later."
+		flash.message = g.message(code: 'oouath.fail.info', args:['Dropbox'])
 		redirect([controller: 'login', action: 'auth'])
 	}
 

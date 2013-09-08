@@ -85,7 +85,7 @@
 <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 
 <div id="status" role="complementary">
-    <h1>OAuthTesting, heading the stream ...</h1>
+    <h2><g:link controller="logout">Logout</g:link></h2>
 
 </div>
 
@@ -94,13 +94,12 @@
 
     <h3>Hello, ${info?."display_name"}. You are logged in through dropbox.</h3>  <br/>
 
-    <p>Information of your dropbox space:  <br/><br/>
+<p>Information of your dropbox space:  <br/><br/>
 
-        Shared: ${info?."quota_info"?."shared"}  <br/>
-        Quota: ${info?."quota_info"?."quota"}      <br/>
-        Normal: ${info?."quota_info"?."normal"}     <br/>
-
-    </p>
+    <g:each var="quota" in="${info?."quota_info"}">
+        <p>${quota?.key}: ${(quota?.value?.toLong()/(1024*1024)).toFloat().trunc(2)} Mb</p>
+    </g:each>
+</p>
 </div>
 </body>
 </html>
