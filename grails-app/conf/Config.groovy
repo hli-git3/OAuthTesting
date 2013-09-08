@@ -67,9 +67,9 @@ oauth {
 			api = org.scribe.builder.api.DropBoxApi
 			key = 'qcsvslsyjefbv7t'
 			secret = 'oyrh4ip7uqfxgba'
-			successUri = "${grailsApplication.config.grails.serverURL}/"
-			failureUri = "${grailsApplication.config.grails.serverURL}/"
-		//	callback = "${grailsApplication.config.grails.serverURL}/oauth/dropbox/callback"
+			successUri = "https://99.116.238.70:8443/"
+			failureUri = "https://99.116.238.70:8443/"
+			callback = "https://99.116.238.70:8443/oauth/dropbox/callback"
 		}
 	}
 	debug = true
@@ -77,12 +77,12 @@ oauth {
 
 environments {
 	development {
-		grails.serverURL = "http://cowboy274.myiomegacloud.com:8080"
+		grails.serverURL = "https://99.116.238.70:8443"
 		grails.app.context = "/"
 		grails.logging.jul.usebridge = true
 	}
 	production {
-		grails.serverURL = "http://cowboy274.myiomegacloud.com:8080"
+		grails.serverURL = "https://99.116.238.70:8443"
 		grails.app.context = "/"
 		grails.logging.jul.usebridge = false
 		// TODO: grails.serverURL = "http://www.changeme.com"
@@ -134,7 +134,7 @@ grails {
 
 			//rejectifNoRule = true
 
-			//auth.forceHttps = true
+			auth.forceHttps = true
 		}
 	}
 }
