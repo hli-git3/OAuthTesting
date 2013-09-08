@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/oauthDropBox/home.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" afterPath="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy" afterPath="$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy" afterPath="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthTesting.iws" />
@@ -16,7 +12,7 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/a.java" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565018845" ignored="false" />
     <file path="/a.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565248423" ignored="false" />
-    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378624523356" ignored="false" />
+    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378627078225" ignored="false" />
     <file path="/Config.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378624826640" ignored="false" />
     <file path="/a.dummy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378621170082" ignored="false" />
     <file path="/.gitignore" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378618902025" ignored="false" />
@@ -29,7 +25,7 @@
     <file path="/fragment.java" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378610301400" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378618526868" ignored="false" />
     <file path="/OauthDropBoxController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378626009575" ignored="false" />
-    <file path="/OauthController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378625210315" ignored="false" />
+    <file path="/OauthController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378628873034" ignored="false" />
     <file path="/OauthProvider.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378625094413" ignored="false" />
     <file path="/OauthService.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378626964414" ignored="false" />
     <file path="/home.gsp" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378626074232" ignored="false" />
@@ -50,36 +46,6 @@
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$USER_HOME$/.grails/2.2.4/projects/OAuthTesting/plugins/oauth-2.1.0/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" line="15" class="uk.co.desirableobjects.oauth.scribe.OauthController" package="uk.co.desirableobjects.oauth.scribe">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" line="22" class="uk.co.desirableobjects.oauth.scribe.OauthController" package="uk.co.desirableobjects.oauth.scribe">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" line="72" class="uk.co.desirableobjects.oauth.scribe.OauthController" package="uk.co.desirableobjects.oauth.scribe">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -140,29 +106,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="46" selection-start="2876" selection-end="2876" vertical-scroll-proportion="-0.09799554">
+            <state line="70" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OauthController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OauthController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="355" selection-end="372" vertical-scroll-proportion="38.434784">
+            <state line="23" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.09389672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/conf/Config.groovy">
+      <file leaf-file-name="Verifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/model/Verifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="19" column="9" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuth10aServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuth10aServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="37" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenExtractorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/extractors/TokenExtractorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +156,16 @@
       <file leaf-file-name="OauthProvider.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+            <state line="10" column="11" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuthService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,25 +174,7 @@
       <file leaf-file-name="OauthService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="60" selection-start="3855" selection-end="3855" vertical-scroll-proportion="-12.28">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OauthResourceService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthResourceService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="42" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-8.130435">
+            <state line="152" column="0" selection-start="4819" selection-end="4819" vertical-scroll-proportion="-5.48">
               <folding />
             </state>
           </provider>
@@ -215,16 +192,7 @@
       <file leaf-file-name="OauthDropBoxController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="-14.043478">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/oauthDropBox/home.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="297" selection-end="297" vertical-scroll-proportion="-4.857143">
+            <state line="13" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="-6.173913">
               <folding />
             </state>
           </provider>
@@ -238,7 +206,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../grails-oauth-scribe" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -257,12 +225,12 @@
         <option value="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy" />
-        <option value="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/HomeController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/oauthDropBox/home.gsp" />
         <option value="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy" />
+        <option value="$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       </list>
     </option>
@@ -823,7 +791,11 @@
       <created>1378624542592</created>
       <updated>1378624542592</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added callback parameter to authorize request.">
+      <created>1378627089240</created>
+      <updated>1378627089240</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -841,7 +813,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958263" sideWeight="0.60121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958263" sideWeight="0.60121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958263" sideWeight="0.67030305" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -932,47 +904,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthResourceService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuth10aServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="30" selection-start="4316" selection-end="4316" vertical-scroll-proportion="-7.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/builder/api/DefaultApi10a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="25" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/builder/api/LinkedInApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1286#1294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/builder/api/DropBoxApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="40" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -991,16 +925,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/oauthDropBox/home.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="14" column="50" selection-start="297" selection-end="297" vertical-scroll-proportion="-4.857143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-8.130435">
+        <state line="41" column="42" selection-start="1266" selection-end="1266" vertical-scroll-proportion="18.47826">
           <folding />
         </state>
       </provider>
@@ -1012,37 +946,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy">
+    <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/src/groovy/uk/co/desirableobjects/oauth/scribe/OauthProvider.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="-14.043478">
+        <state line="10" column="11" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/oauthDropBox/home.gsp">
+    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="297" selection-end="297" vertical-scroll-proportion="-4.857143">
+        <state line="11" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy">
+    <entry file="jar://$USER_HOME$/Apps/grails-2.2.4/lib/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="355" selection-end="372" vertical-scroll-proportion="38.434784">
+        <state line="107" column="19" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.35279804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/model/Verifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/services/uk/co/desirableobjects/oauth/scribe/OauthService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="60" selection-start="3855" selection-end="3855" vertical-scroll-proportion="-12.28">
+        <state line="152" column="0" selection-start="4819" selection-end="4819" vertical-scroll-proportion="-5.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/extractors/TokenExtractorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/bluesky/filesafe/OauthDropBoxController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="-6.173913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="46" selection-start="2876" selection-end="2876" vertical-scroll-proportion="-0.09799554">
+        <state line="70" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scribe-1.3.5-sources.jar!/org/scribe/oauth/OAuth10aServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="37" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-app/controllers/uk/co/desirableobjects/oauth/scribe/OauthController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.09389672">
           <folding />
         </state>
       </provider>

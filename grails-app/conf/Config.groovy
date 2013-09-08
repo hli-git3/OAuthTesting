@@ -68,7 +68,7 @@ oauth {
 			key = 'qcsvslsyjefbv7t'
 			secret = 'oyrh4ip7uqfxgba'
 			successUri = "/oauthDropBox/index"
-			failureUri = "/oauthDropBox/index"
+			failureUri = "/oauthDropBox/fail"
 			callback = "/oauth/dropbox/callback"
 		}
 	}

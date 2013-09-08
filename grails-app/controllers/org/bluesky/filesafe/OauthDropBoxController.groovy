@@ -12,17 +12,17 @@ class OauthDropBoxController {
 		log.debug("dropbox token:" + dropboxToken);
 
 		if(dropboxToken == null) {
-			flash.message = "The token could no be retrieved... Please try again"
+			flash.message = "Dropbox login failed. Please try again later."
 			redirect([controller: 'login', action: 'auth'])
 			return
 		}
 
 		render ( view: 'home')
-
 	}
 
-	def requestToken() {
-
+	def fail() {
+		flash.message = "Dropbox login failed. Please try again later."
+		redirect([controller: 'login', action: 'auth'])
 	}
 
 
