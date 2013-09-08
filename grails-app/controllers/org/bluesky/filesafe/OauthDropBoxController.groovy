@@ -2,6 +2,7 @@ package org.bluesky.filesafe
 
 import grails.plugins.springsecurity.Secured
 import org.codehaus.jackson.map.ObjectMapper
+import org.codehaus.jackson.type.TypeReference
 import org.scribe.model.Response
 import org.scribe.model.Token
 
@@ -14,28 +15,33 @@ class OauthDropBoxController {
 		Token dropboxToken = session[sessionKey]
 		log.debug("dropbox token:" + dropboxToken);
 
-		if(dropboxToken == null) {
+		if (dropboxToken == null) {
 			flash.message = "Dropbox login failed. Please try again later."
 			redirect([controller: 'login', action: 'auth'])
 			return
 		}
 
 		Response accountInfo = oauthService.getDropboxResource(dropboxToken, 'https://api.dropbox.com/1/account/info')
-		def info
-		if(accountInfo.isSuccessful())  {
+		def Map<String, Object> info
+		if (accountInfo.isSuccessful()) {
 			ObjectMapper mapper = new ObjectMapper()
-			List<Object> array = mapper.readValue(accountInfo.body, List.class)
-			info = array.getAt(0)
+			info = mapper.readValue(accountInfo.body,
+					new TypeReference<Map<String, Object>>() {
+						/*@Override
+						int compareTo(TypeReference o) {
+							return 0  //To change body of implemented methods use File | Settings | File Templates.
+						}*/
+					});
+
 		}
 
-		render ( view: 'home', model: info)
+		render(view: 'home', model: [info:info])
 	}
 
 	def fail() {
 		flash.message = "Dropbox login failed. Please try again later."
 		redirect([controller: 'login', action: 'auth'])
 	}
-
 
 
 }

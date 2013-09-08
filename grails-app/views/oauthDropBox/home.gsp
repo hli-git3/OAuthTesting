@@ -12,12 +12,14 @@
   <title>Home</title>
 </head>
 <body>
-  <h3>Hello, ${info.display_name}. You are logged in through dropbox.</h3>
+  <h3>Hello, ${info?."display_name"}. You are logged in through dropbox.</h3>
 
 <div>
-  Your dropbox quota:  <br/>
+  Information of your dropbox space:  <br/>
   <ul>
-      <li>Shared: ${info.quota_info.shared}</li>
+      <li>Shared: ${info?."quota_info"?."shared"}</li>
+      <li>Quota: ${info?."quota_info"?."quota"}</li>
+      <li>Normal: ${info?."quota_info"?."normal"}</li>
   </ul>
 
 
