@@ -11,6 +11,8 @@ grails.project.source.level = 1.6
 //   run: [maxMemory:1024, minMemory:64, debug:false, maxPerm:256]
 //]
 
+grails.plugin.location.'oauth' = "../grails-oauth-scribe"
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -43,7 +45,7 @@ grails.project.dependency.resolution = {
 
         // runtime 'mysql:mysql-connector-java:5.1.22'
 
-	    runtime 'org.scribe:scribe:1.3.5'
+	  //  runtime 'org.scribe:scribe:1.3.5'
     }
 
     plugins {
@@ -64,9 +66,9 @@ grails.project.dependency.resolution = {
 
         compile ':spring-security-core:1.2.7.3'
 
-	    compile(':oauth:2.1.0') {
+	  /*  compile(':oauth:2.1.0') {
 		    excludes "scribe"
-	    }
+	    }*/
 	   // compile ':spring-security-oauth:2.0.1.1'
 
     }

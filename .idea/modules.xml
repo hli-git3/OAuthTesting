@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OAuthTesting.iml" filepath="$PROJECT_DIR$/OAuthTesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/OAuthTesting-grailsPlugins.iml" filepath="$PROJECT_DIR$/OAuthTesting-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../grails-oauth-scribe/grails-oauth-scribe.iml" filepath="$PROJECT_DIR$/../grails-oauth-scribe/grails-oauth-scribe.iml" />
     </modules>
   </component>
 </project>
