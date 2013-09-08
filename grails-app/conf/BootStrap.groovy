@@ -1,4 +1,4 @@
-import org.blusky.filesafe.Requestmap
+import org.bluesky.filesafe.Requestmap
 
 class BootStrap {
 

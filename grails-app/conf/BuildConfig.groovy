@@ -63,7 +63,7 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:1.2.7.3'
 
 	    compile ':oauth:2.1.0'
-
+	   // compile ':spring-security-oauth:2.0.1.1'
 
     }
 }

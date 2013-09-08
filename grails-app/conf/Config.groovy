@@ -69,7 +69,7 @@ oauth {
 			secret = 'oyrh4ip7uqfxgba'
 			successUri = "https://99.116.238.70:8443/"
 			failureUri = "https://99.116.238.70:8443/"
-			callback = "https://99.116.238.70:8443/oauth/dropbox/callback"
+			callback = "http://www.yahoo.com"
 		}
 	}
 	debug = true
@@ -112,10 +112,10 @@ log4j = {
 
 // Added by the Spring Security Core plugin:
 /*
-grails.plugins.springsecurity.userLookup.userDomainClassName = 'org.blusky.filesafe.User'
-grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'org.blusky.filesafe.UserRole'
-grails.plugins.springsecurity.authority.className = 'org.blusky.filesafe.Role'
-grails.plugins.springsecurity.requestMap.className = 'org.blusky.filesafe.Requestmap'
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'org.bluesky.filesafe.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'org.bluesky.filesafe.UserRole'
+grails.plugins.springsecurity.authority.className = 'org.bluesky.filesafe.Role'
+grails.plugins.springsecurity.requestMap.className = 'org.bluesky.filesafe.Requestmap'
 grails.plugins.springsecurity.securityConfigType = 'Requestmap'
 */
 
@@ -123,11 +123,11 @@ grails {
 	plugins {
 		springsecurity {
 			userLookup {
-				userDomainClassName = 'org.blusky.filesafe.User'
-				authorityJoinClassName = 'org.blusky.filesafe.UserRole'
+				userDomainClassName = 'org.bluesky.filesafe.User'
+				authorityJoinClassName = 'org.bluesky.filesafe.UserRole'
 			}
-			authority.className = 'org.blusky.filesafe.Role'
-			requestMap.className = 'org.blusky.filesafe.Requestmap'
+			authority.className = 'org.bluesky.filesafe.Role'
+			requestMap.className = 'org.bluesky.filesafe.Requestmap'
 			securityConfigType = 'Requestmap'
 
 			//useSessionFixationPrevention = true
