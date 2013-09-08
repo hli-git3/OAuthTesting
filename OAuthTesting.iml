@@ -56,6 +56,8 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.scribe/scribe/jars/scribe-1.3.5.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.objenesis/objenesis/jars/objenesis-1.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gmock/gmock/jars/gmock-0.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

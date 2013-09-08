@@ -12,6 +12,16 @@
   <title>Home</title>
 </head>
 <body>
-  <h2>Congratulations!!! You are logged in through dropbox.</h2>
+  <h3>Hello, ${info.display_name}. You are logged in through dropbox.</h3>
+
+<div>
+  Your dropbox quota:  <br/>
+  <ul>
+      <li>Shared: ${info.quota_info.shared}</li>
+  </ul>
+
+
+</div>
+
 </body>
 </html>

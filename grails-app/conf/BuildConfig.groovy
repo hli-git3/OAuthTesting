@@ -46,6 +46,9 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.22'
 
 	  //  runtime 'org.scribe:scribe:1.3.5'
+
+	   compile 'org.codehaus.jackson:jackson-core-asl:1.9.13'
+	   compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
     }
 
     plugins {
