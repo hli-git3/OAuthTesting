@@ -69,7 +69,7 @@ oauth {
 			secret = 'oyrh4ip7uqfxgba'
 			successUri = "https://99.116.238.70:8443/"
 			failureUri = "https://99.116.238.70:8443/"
-			callback = "http://www.yahoo.com"
+			callback = "https://www.google.com"
 		}
 	}
 	debug = true
