@@ -67,9 +67,9 @@ oauth {
 			api = org.scribe.builder.api.DropBoxApi
 			key = 'qcsvslsyjefbv7t'
 			secret = 'oyrh4ip7uqfxgba'
-			successUri = '/'
-			failureUri = '/'
-			callback = "http://localhost:8080/oauth/openbox/callback"
+			successUri = "${grailsApplication.config.grails.serverURL}/"
+			failureUri = "${grailsApplication.config.grails.serverURL}/"
+		//	callback = "${grailsApplication.config.grails.serverURL}/oauth/dropbox/callback"
 		}
 	}
 	debug = true
@@ -77,9 +77,13 @@ oauth {
 
 environments {
 	development {
+		grails.serverURL = "http://cowboy274.myiomegacloud.com:8080"
+		grails.app.context = "/"
 		grails.logging.jul.usebridge = true
 	}
 	production {
+		grails.serverURL = "http://cowboy274.myiomegacloud.com:8080"
+		grails.app.context = "/"
 		grails.logging.jul.usebridge = false
 		// TODO: grails.serverURL = "http://www.changeme.com"
 	}
@@ -126,11 +130,11 @@ grails {
 			requestMap.className = 'org.blusky.filesafe.Requestmap'
 			securityConfigType = 'Requestmap'
 
-			useSessionFixationPrevention = true
+			//useSessionFixationPrevention = true
 
-			rejectifNoRule = true
+			//rejectifNoRule = true
 
-			auth.forceHttps = true
+			//auth.forceHttps = true
 		}
 	}
 }
