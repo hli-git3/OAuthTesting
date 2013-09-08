@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MOVED" beforePath="C:\Users\hli\IdeaProjects\OAuthTesting\grails-app\domain\org\blusky\filesafe\Requestmap.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/Requestmap.groovy" />
+      <change type="MOVED" beforePath="C:\Users\hli\IdeaProjects\OAuthTesting\grails-app\domain\org\blusky\filesafe\Role.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/Role.groovy" />
+      <change type="MOVED" beforePath="C:\Users\hli\IdeaProjects\OAuthTesting\grails-app\domain\org\blusky\filesafe\User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/User.groovy" />
+      <change type="MOVED" beforePath="C:\Users\hli\IdeaProjects\OAuthTesting\grails-app\domain\org\blusky\filesafe\UserRole.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/UserRole.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuthTesting-grailsPlugins.iml" afterPath="$PROJECT_DIR$/OAuthTesting-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuthTesting.iml" afterPath="$PROJECT_DIR$/OAuthTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthTesting.iws" />
@@ -15,9 +16,9 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/a.java" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565018845" ignored="false" />
     <file path="/a.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378565248423" ignored="false" />
-    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378609771742" ignored="false" />
+    <file path="/Dummy.txt" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378611164887" ignored="false" />
     <file path="/Config.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378601157111" ignored="false" />
-    <file path="/a.dummy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378609768440" ignored="false" />
+    <file path="/a.dummy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378611161084" ignored="false" />
     <file path="/.gitignore" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378570502772" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378575120787" ignored="false" />
     <file path="/index.gsp" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378574447566" ignored="false" />
@@ -26,6 +27,7 @@
     <file path="/LoginController.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378581075132" ignored="false" />
     <file path="/Dummy.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378607780856" ignored="false" />
     <file path="/fragment.java" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378610301400" ignored="false" />
+    <file path="/BuildConfig.groovy" changelist="1dab1c8c-3aca-4723-85dd-11ea2b00bc27" time="1378611643120" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,10 +105,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="1" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.8470437">
+            <state line="139" column="1" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="7" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0">
+            <state line="54" column="25" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.14220184">
               <folding />
             </state>
           </provider>
@@ -216,10 +218,10 @@
         <option value="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/blusky/filesafe/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       </list>
     </option>
   </component>
@@ -690,7 +692,11 @@
       <created>1378603976095</created>
       <updated>1378603976095</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dropbox login">
+      <created>1378610609453</created>
+      <updated>1378610609453</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -704,7 +710,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3987879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -712,18 +718,18 @@
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958263" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958263" sideWeight="0.67030305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958263" sideWeight="0.60121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -882,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="7" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/org/bluesky/filesafe/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -901,7 +900,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="1" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.8470437">
+        <state line="139" column="1" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="25" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.14220184">
           <folding />
         </state>
       </provider>
@@ -913,8 +919,8 @@
         <entry key="OAuthTesting">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="1096732316" />
-              <option name="pluginDependenciesCrc" value="-334969963" />
+              <option name="buildConfigCrc" value="-850061182" />
+              <option name="pluginDependenciesCrc" value="496020533" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\hli\.grails\2.2.4\global-plugins" />

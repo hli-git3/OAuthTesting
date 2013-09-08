@@ -1,4 +1,4 @@
-package org.blusky.filesafe
+package org.bluesky.filesafe
 
 import org.apache.commons.lang.builder.HashCodeBuilder
 

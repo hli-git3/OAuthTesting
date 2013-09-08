@@ -42,6 +42,8 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
 
         // runtime 'mysql:mysql-connector-java:5.1.22'
+
+	    runtime 'org.scribe:scribe:1.3.5'
     }
 
     plugins {
@@ -62,7 +64,9 @@ grails.project.dependency.resolution = {
 
         compile ':spring-security-core:1.2.7.3'
 
-	    compile ':oauth:2.1.0'
+	    compile(':oauth:2.1.0') {
+		    excludes "scribe"
+	    }
 	   // compile ':spring-security-oauth:2.0.1.1'
 
     }

@@ -1,4 +1,4 @@
-package org.blusky.filesafe
+package org.bluesky.filesafe
 
 class Role {
 
