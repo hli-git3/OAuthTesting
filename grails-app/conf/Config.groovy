@@ -67,9 +67,9 @@ oauth {
 			api = org.scribe.builder.api.DropBoxApi
 			key = 'qcsvslsyjefbv7t'
 			secret = 'oyrh4ip7uqfxgba'
-			successUri = "https://99.116.238.70:8443/"
-			failureUri = "https://99.116.238.70:8443/"
-			callback = "https://www.google.com"
+			successUri = "/oauthDropBox/index"
+			failureUri = "/oauthDropBox/index"
+			callback = "/oauth/dropbox/callback"
 		}
 	}
 	debug = true
