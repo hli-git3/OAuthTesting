@@ -82,7 +82,7 @@ environments {
 		grails.logging.jul.usebridge = true
 	}
 	production {
-		grails.serverURL = "https://99.116.238.70:8443"
+		grails.serverURL = "http://env-9572038.jelastic.servint.net/OAuthTesting"
 		grails.app.context = "/"
 		grails.logging.jul.usebridge = false
 		// TODO: grails.serverURL = "http://www.changeme.com"

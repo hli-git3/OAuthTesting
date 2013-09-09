@@ -18,8 +18,8 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner" style="{vertical-align: middle; margin: 0 auto;  display: block; margin-left: auto; margin-right: auto}">
-            <img width="500px" height="50px" src="${resource(dir: 'images', file: 'oauthtesting_footer.png')}" alt="OAuthTesting"/>
+		<div id="grailsLogo" role="banner" style="text-align: center;">
+            <h2 style="text-align: center; color: blueviolet">OAuthTesting, where the fun starts...</h2>
         </div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo">

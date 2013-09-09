@@ -7,3 +7,4 @@ settings.xml
 *.iws
 *.ipr
 target
+stacktrace.log
