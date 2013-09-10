@@ -77,7 +77,7 @@ oauth {
 
 environments {
 	development {
-		grails.serverURL = "https://99.116.238.70:8443"
+		grails.serverURL = "https://www.yahoo.com:8443"       // put it the url for public access
 		grails.app.context = "/"
 		grails.logging.jul.usebridge = true
 	}
